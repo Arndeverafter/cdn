@@ -16,6 +16,10 @@ table th {
   vertical-align: top;
   border-top: 1px solid #dee2e6;
 }
+table > tbody > tr:first-of-type {
+    background: #e60000;
+    color: #fff;
+}
 table th,
 table thead th {
   vertical-align: bottom;
